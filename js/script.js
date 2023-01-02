@@ -24,7 +24,7 @@ function myButtonClicked() {
 
   while (counter < numberB) {
     counter++
-    product = product + Math.abs(numA)
+    product = product + numberA
   }
   document.getElementById("hello-world").innerHTML =
     numberA + " x " + numberB + " = " + product
