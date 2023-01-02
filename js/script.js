@@ -17,20 +17,14 @@ if (navigator.serviceWorker) {
  * This function does multiplication.
  */
 function myButtonClicked() {
-  var numberA = parseFloat(document.getElementById("variable-a").value)
-  var numberB = parseFloat(document.getElementById("variable-b").value)
-  var product = 0
-  var counter = 0
+  let numberA = parseFloat(document.getElementById("variable-a").value)
+  let numberB = parseFloat(document.getElementById("variable-b").value)
+  let product = 0
+  let counter = 0
 
-  while (counter < Math.abs(numB)) {
+  while (counter < numberB) {
     counter++
     product = product + Math.abs(numA)
   }
-
-  if ((numA < 0 && numB > 0) || (numB < 0 && numA > 0))
-    document.getElementById("hello-world").innerHTML =
-      "Both numbers multiply to -" + product + "."
-  else
-    document.getElementById("hello-world").innerHTML =
-      "Both numbers multiply to " + product + "."
+  document.getElementById("hello-world").innerHTML = numberA +" x "+ numberB + " = " + product
 }
