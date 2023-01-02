@@ -26,5 +26,6 @@ function myButtonClicked() {
     counter++
     product = product + Math.abs(numA)
   }
-  document.getElementById("hello-world").innerHTML = numberA +" x "+ numberB + " = " + product
+  document.getElementById("hello-world").innerHTML =
+    numberA + " x " + numberB + " = " + product
 }
