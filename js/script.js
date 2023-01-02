@@ -34,4 +34,3 @@ function myButtonClicked() {
     document.getElementById("hello-world").innerHTML =
       "Both numbers multiply to " + product + "."
 }
-
